@@ -7,6 +7,12 @@ class panneauInterne extends Component {
     currentStage: 0
   };
   
+  
+    
+    
+   
+  
+  
 
   stageSelection = stage => {
     this.setState({ stageSelected: stage });
@@ -15,6 +21,7 @@ class panneauInterne extends Component {
 
   animationToStageSelected = () => {
     const id = setInterval(() => {
+      this.props.getStatePanneauInterne(this.state)
       let { stageSelected, currentStage } = this.state;
 
       console.log({ currentStage }, { stageSelected });

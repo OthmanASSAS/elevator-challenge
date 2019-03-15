@@ -1,15 +1,25 @@
+.currentStage {
+    background: lightgreen;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
 .containerStageBuilding{
     display: flex
 }
 
 .containerStageBuilding div {
-    width: 70px;
     height: 70px;
+    width: 90px;
    
-    background: grey;
+    background: rgb(174, 197, 204);
     text-align: center;
     line-height: 70px;
-    margin: 5px ;
+    margin: 2px ;
     cursor: pointer;
 
 }
