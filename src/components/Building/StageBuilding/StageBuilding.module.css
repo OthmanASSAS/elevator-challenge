@@ -1,0 +1,15 @@
+.containerStageBuilding{
+    display: flex
+}
+
+.containerStageBuilding div {
+    width: 70px;
+    height: 70px;
+   
+    background: grey;
+    text-align: center;
+    line-height: 70px;
+    margin: 5px ;
+    cursor: pointer;
+
+}

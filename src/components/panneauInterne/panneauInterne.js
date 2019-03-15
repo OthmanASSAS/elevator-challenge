@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import Button from "./button/button";
+import Button from "./Button/Button";
 
 class panneauInterne extends Component {
   state = {
     stageSelected: 0,
     currentStage: 0
   };
+  
 
   stageSelection = stage => {
     this.setState({ stageSelected: stage });
